@@ -73,3 +73,6 @@
 [submodule "6-neepii"]
 	path = 6-neepii
 	url = git@github.com:spbu-coding-2024/6-neepii.git
+[submodule "6-MikhailSvirukov"]
+	path = 6-MikhailSvirukov
+	url = git@github.com:spbu-coding-2024/6-MikhailSvirukov.git
