@@ -4,3 +4,6 @@
 [submodule "6-K0tB0ris"]
 	path = 6-K0tB0ris
 	url = git@github.com:spbu-coding-2024/6-K0tB0ris.git
+[submodule "6-vvmaksim"]
+	path = 6-vvmaksim
+	url = git@github.com:spbu-coding-2024/6-vvmaksim.git
