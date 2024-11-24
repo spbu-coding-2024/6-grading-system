@@ -52,3 +52,6 @@
 [submodule "6-XRenso"]
 	path = 6-XRenso
 	url = git@github.com:spbu-coding-2024/6-XRenso.git
+[submodule "6-MickeyPashaev"]
+	path = 6-MickeyPashaev
+	url = git@github.com:spbu-coding-2024/6-MickeyPashaev.git
