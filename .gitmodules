@@ -40,3 +40,6 @@
 [submodule "6-RomanMaltsev"]
 	path = 6-RomanMaltsev
 	url = git@github.com:spbu-coding-2024/6-RomanMaltsev.git
+[submodule "6-g4rry1"]
+	path = 6-g4rry1
+	url = git@github.com:spbu-coding-2024/6-g4rry1.git
