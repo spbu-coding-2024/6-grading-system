@@ -55,3 +55,6 @@
 [submodule "6-MickeyPashaev"]
 	path = 6-MickeyPashaev
 	url = git@github.com:spbu-coding-2024/6-MickeyPashaev.git
+[submodule "6-vlapugb"]
+	path = 6-vlapugb
+	url = git@github.com:spbu-coding-2024/6-vlapugb.git
