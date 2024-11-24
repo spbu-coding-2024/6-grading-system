@@ -79,3 +79,6 @@
 [submodule "6-Egorkayka"]
 	path = 6-Egorkayka
 	url = git@github.com:spbu-coding-2024/6-Egorkayka.git
+[submodule "6-TheFollan"]
+	path = 6-TheFollan
+	url = git@github.com:spbu-coding-2024/6-TheFollan.git
