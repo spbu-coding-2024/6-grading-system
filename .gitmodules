@@ -64,3 +64,6 @@
 [submodule "6-K1mer0"]
 	path = 6-K1mer0
 	url = git@github.com:spbu-coding-2024/6-K1mer0.git
+[submodule "6-ArsenijRomanov"]
+	path = 6-ArsenijRomanov
+	url = git@github.com:spbu-coding-2024/6-ArsenijRomanov.git
