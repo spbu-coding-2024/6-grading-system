@@ -19,3 +19,6 @@
 [submodule "6-Ganesha1967"]
 	path = 6-Ganesha1967
 	url = git@github.com:spbu-coding-2024/6-Ganesha1967.git
+[submodule "6-epishkin06"]
+	path = 6-epishkin06
+	url = git@github.com:spbu-coding-2024/6-epishkin06.git
