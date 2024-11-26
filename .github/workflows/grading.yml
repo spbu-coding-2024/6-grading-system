@@ -17,17 +17,17 @@ jobs:
           fetch-depth: 2
           token: ${{ secrets.GH_DB_TOKEN }}
       - name: Check repository clean
-        run: ./5-grading-tests/scripts/check_clean.sh
+        run: ./6-grading-tests/scripts/check_clean.sh
       - name: Build
-        run: ./5-grading-tests/scripts/build.sh
+        run: ./6-grading-tests/scripts/build.sh
       - name: Test basic scenario
-        run: ./5-grading-tests/scripts/test.sh
+        run: ./6-grading-tests/scripts/test.sh
       - name: Check infix notation supported
         id: check_infix
-        run: ./5-grading-tests/scripts/check_infix.sh >> "$GITHUB_OUTPUT"
+        run: ./6-grading-tests/scripts/check_infix.sh >> "$GITHUB_OUTPUT"
       - name: Check division supported
         id: check_div
-        run: ./5-grading-tests/scripts/check_div.sh >> "$GITHUB_OUTPUT"
+        run: ./6-grading-tests/scripts/check_div.sh >> "$GITHUB_OUTPUT"
   test-infix:
     runs-on: ubuntu-latest
     needs: test-basic
@@ -39,9 +39,9 @@ jobs:
           fetch-depth: 2
           token: ${{ secrets.GH_DB_TOKEN }}
       - name: Build
-        run: ./5-grading-tests/scripts/build.sh
+        run: ./6-grading-tests/scripts/build.sh
       - name: Test infix notation
-        run: ./5-grading-tests/scripts/test_infix.sh
+        run: ./6-grading-tests/scripts/test_infix.sh
   test-div:
     runs-on: ubuntu-latest
     needs: test-basic
@@ -53,6 +53,6 @@ jobs:
           fetch-depth: 2
           token: ${{ secrets.GH_DB_TOKEN }}
       - name: Build
-        run: ./5-grading-tests/scripts/build.sh
+        run: ./6-grading-tests/scripts/build.sh
       - name: Test division
-        run: ./5-grading-tests/scripts/test_div.sh
+        run: ./6-grading-tests/scripts/test_div.sh
