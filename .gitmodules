@@ -97,3 +97,6 @@
 [submodule "6-Nickovlev"]
 	path = 6-Nickovlev
 	url = git@github.com:spbu-coding-2024/6-Nickovlev.git
+[submodule "6-grading-tests"]
+	path = 6-grading-tests
+	url = git@github.com:spbu-coding-2024/6-grading-tests.git
