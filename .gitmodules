@@ -103,3 +103,6 @@
 [submodule "6-Nasty12121"]
 	path = 6-Nasty12121
 	url = git@github.com:spbu-coding-2024/6-Nasty12121.git
+[submodule "6-Belyaev-Alexander"]
+	path = 6-Belyaev-Alexander
+	url = git@github.com:spbu-coding-2024/6-Belyaev-Alexander.git
