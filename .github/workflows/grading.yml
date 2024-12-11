@@ -6,7 +6,7 @@ on:
 
 jobs:
   test-basic:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       supported_infix: ${{ steps.check_infix.outputs.supported }}
       supported_div: ${{ steps.check_div.outputs.supported }}
@@ -29,7 +29,7 @@ jobs:
         id: check_div
         run: ./6-grading-tests/scripts/check_div.sh >> "$GITHUB_OUTPUT"
   test-infix:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: test-basic
     if: needs.test-basic.outputs.supported_infix == 'yes'
     steps:
@@ -43,7 +43,7 @@ jobs:
       - name: Test infix notation
         run: ./6-grading-tests/scripts/test_infix.sh
   test-div:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: test-basic
     if: needs.test-basic.outputs.supported_div == 'yes'
     steps:
