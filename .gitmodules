@@ -130,3 +130,6 @@
 [submodule "6-ivanovm-main"]
 	path = 6-ivanovm-main
 	url = git@github.com:spbu-coding-2024/6-ivanovm-main.git
+[submodule "6-silvitreatment"]
+	path = 6-silvitreatment
+	url = git@github.com:spbu-coding-2024/6-silvitreatment.git
