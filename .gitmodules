@@ -133,3 +133,6 @@
 [submodule "6-silvitreatment"]
 	path = 6-silvitreatment
 	url = git@github.com:spbu-coding-2024/6-silvitreatment.git
+[submodule "6-Danya-st"]
+	path = 6-Danya-st
+	url = git@github.com:spbu-coding-2024/6-Danya-st.git
